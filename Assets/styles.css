@@ -1,6 +1,10 @@
+html {
+  font-size: 22px;
+}
+
 body {
-  background-color: tan;
-  color: rgb(19, 85, 44);
+  background-color: #004643;
+  color: #eff0f3;
 }
 
 *{
@@ -15,38 +19,90 @@ header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 20px 50px;
+  padding: 20px 20px;
   box-shadow: 0 1px 8px #ddd;
 }
 
 #nav-title {
   margin-right: auto;
   font-size: 35px;
+  align-items: center;
 }
 
 header li {
   list-style: none;
   display: inline-block;
-  padding: 0 20px;
+  padding: 20px;
 }
 
 header a {
   text-decoration: none;
-  color: #555;
+  color: #eff0f3;
   transition: all 0.3s ease 0s;
 }
 
 header a:hover {
-  color: rgb(19, 85, 44);
+  color: #F9BC60;
+}
+
+.card {
+  background-color: red;
+  color: white;
+  padding: 1rem;
+  height: 4rem;
+}
+
+.cards {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+}
+
+@media (min-width: 600px) {
+  .cards { grid-template-columns: repeat(2, 1fr);}
+}
+
+@media (min-width: 900px) {
+  .cards { grid-template-columns: repeat(3, 1fr);}
+}
+
+/* Links */
+a:link {
+  color: #ABD1C6;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: tan;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #F9BC60;
+  background-color: transparent;
+  text-decoration: underline;
 }
 
 section{
   display: flex;
   flex-direction: column;
-  padding-top: 20px;
+  padding-top: 30px;
   height: auto;
   width: 100%;
   align-items: center;
-  color: rgb(19, 85, 44);
+  color: #eff0f3;
   font-size: 25px;
+}
+
+h2 {
+  color: #eff0f3;
+  padding-bottom: 5px;
+}
+
+p {
+  color: #ABD1C6;
+  padding-bottom: 20px;
 }
