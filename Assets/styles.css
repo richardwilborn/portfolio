@@ -74,8 +74,8 @@ section {
 }
 
 .picOfme {
-  max-width: 100%;
-  height: auto;
+  height: 50vh;
+  width: 50vh;
 }
  
 .cards {
