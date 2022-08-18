@@ -73,6 +73,11 @@ section {
   padding-bottom: 50px;
 }
 
+.picOfme {
+  max-width: 100%;
+  height: auto;
+}
+ 
 .cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
