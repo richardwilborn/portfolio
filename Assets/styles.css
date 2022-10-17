@@ -72,6 +72,11 @@ section {
   padding-bottom: 50px;
 }
 
+img {
+  max-width: 100%;
+  display: block;
+}
+
 .picOfme {
   height: 50vh;
   width: 50vh;
