@@ -72,6 +72,11 @@ section {
   padding-bottom: 50px;
 }
 
+.picOflogo {
+  height: 20vh;
+  width: 40vh;
+}
+
 img {
   max-width: 100%;
   display: block;
