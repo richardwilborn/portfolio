@@ -17,7 +17,7 @@ body {
 /* Header */
 header {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   padding: 20px 20px;
 }
@@ -73,8 +73,12 @@ section {
 }
 
 .picOflogo {
-  height: 20vh;
-  width: 40vh;
+  padding-top: 10pt;
+  height: 30vh;
+  width: 60vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 img {
