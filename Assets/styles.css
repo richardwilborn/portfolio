@@ -94,9 +94,9 @@ img {
 .cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1fr;
+  grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 50px;
-  grid-row-gap: 0px;
+  grid-row-gap: 50px;
   text-align: center;
   }
 
@@ -108,6 +108,9 @@ img {
 .project1 { grid-area: 1 / 1 / 2 / 2; }
 .project2 { grid-area: 1 / 2 / 2 / 3; }
 .project3 { grid-area: 1 / 3 / 2 / 4; }
+.project4 { grid-area: 2 / 1 / 3 / 2; }
+.project5 { grid-area: 2 / 2 / 3 / 3; }
+.project6 { grid-area: 2 / 3 / 3 / 4; }
 
 .picOfpasswordgenerator {
   height: 40vh;
