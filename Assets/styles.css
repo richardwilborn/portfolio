@@ -192,10 +192,10 @@ p {
 @media screen and (max-width: 600px) {
   .cards {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 50px;
-    grid-row-gap: 0px;
+    grid-row-gap: 50px;
     text-align: center;
   }
 }
