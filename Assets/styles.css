@@ -24,14 +24,14 @@ header {
 
 .container {
   width: 90%;
-  max-width: 900px;
+  max-width: auto;
   margin: 0 auto;
 }
 
 .container nav {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: center;
 }
 
 header li {
