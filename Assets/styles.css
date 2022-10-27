@@ -145,6 +145,13 @@ img {
   box-shadow: 0px 0px 20px -8px black;
   border-radius: 8px;
 }
+
+.picOfjavascriptfundamentalsquiz {
+  height: 40vh;
+  width: 40vh;
+  box-shadow: 0px 0px 20px -8px black;
+  border-radius: 8px;
+}
   
 .picOfpasswordgenerator:hover {
   transform: scale(1.1);
@@ -159,6 +166,10 @@ img {
 }
 
 .picOfworkdailyplanner:hover {
+  transform: scale(1.1);
+}
+
+.picOfjavascriptfundamentalsquiz:hover {
   transform: scale(1.1);
 }
 
