@@ -101,8 +101,8 @@ img {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  grid-column-gap: 50px;
-  grid-row-gap: 50px;
+  column-gap: 50px;
+  row-gap: 50px;
   text-align: center;
   }
 
@@ -220,8 +220,8 @@ p {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 50px;
+    column-gap: 0px;
+    row-gap: 50px;
     text-align: center;
   }
 }
