@@ -118,66 +118,18 @@ img {
 .project5 { grid-area: 2 / 2 / 3 / 3; }
 .project6 { grid-area: 2 / 3 / 3 / 4; }
 
-.picOfpasswordgenerator {
+.picOfpasswordgenerator, .picOforion, .picOfticketscholar, .picOfworkdailyplanner, .picOfjavascriptfundamentalsquiz {
   height: 40vh;
   width: 40vh;
   box-shadow: 0px 0px 20px -8px black;
   border-radius: 8px;
   }
-
-.picOforion {
-  height: 40vh;
-  width: 40vh;
-  box-shadow: 0px 0px 20px -8px black;
-  border-radius: 8px;
-  }
-
-.picOfticketscholar {
-  height: 40vh;
-  width: 40vh;
-  box-shadow: 0px 0px 20px -8px black;
-  border-radius: 8px;
-}
-
-.picOfworkdailyplanner {
-  height: 40vh;
-  width: 40vh;
-  box-shadow: 0px 0px 20px -8px black;
-  border-radius: 8px;
-}
-
-.picOfjavascriptfundamentalsquiz {
-  height: 40vh;
-  width: 40vh;
-  box-shadow: 0px 0px 20px -8px black;
-  border-radius: 8px;
-}
   
-.picOfpasswordgenerator:hover {
+.picOfpasswordgenerator:hover, .picOforion:hover, .picOfticketscholar:hover, .picOfworkdailyplanner:hover, .picOfjavascriptfundamentalsquiz:hover {
   transform: scale(1.1);
 }
 
-.picOforion:hover {
-  transform: scale(1.1);
-}
-
-.picOfticketscholar:hover {
-  transform: scale(1.1);
-}
-
-.picOfworkdailyplanner:hover {
-  transform: scale(1.1);
-}
-
-.picOfjavascriptfundamentalsquiz:hover {
-  transform: scale(1.1);
-}
-
-.picOfgithublogo:hover {
-  transform: scale(1.1);
-}
-
-.picOflinkedinlogo:hover {
+.picOfgithublogo:hover, .picOflinkedinlogo:hover {
   transform: scale(1.1);
 }
 
