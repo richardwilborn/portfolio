@@ -118,14 +118,14 @@ img {
 .project5 { grid-area: 2 / 2 / 3 / 3; }
 .project6 { grid-area: 2 / 3 / 3 / 4; }
 
-.picOfpasswordgenerator, .picOforion, .picOfticketscholar, .picOfworkdailyplanner, .picOfjavascriptfundamentalsquiz {
+.picOfpasswordgenerator, .picOforion, .picOfticketscholar, .picOfworkdailyplanner, .picOfjavascriptfundamentalsquiz, .picOftechland {
   height: 40vh;
   width: 40vh;
   box-shadow: 0px 0px 20px -8px black;
   border-radius: 8px;
   }
   
-.picOfpasswordgenerator:hover, .picOforion:hover, .picOfticketscholar:hover, .picOfworkdailyplanner:hover, .picOfjavascriptfundamentalsquiz:hover {
+.picOfpasswordgenerator:hover, .picOforion:hover, .picOfticketscholar:hover, .picOfworkdailyplanner:hover, .picOfjavascriptfundamentalsquiz:hover, .picOftechland:hover {
   transform: scale(1.1);
 }
 
