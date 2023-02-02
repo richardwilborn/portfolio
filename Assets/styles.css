@@ -145,6 +145,18 @@ h1 {
 p {
   color: #ABD1C6;
   padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+p2 {
+  color: #ABD1C6;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  font-size: 24px;
 }
 
 /* On screens that are 600px wide or less, make the nav links and the 
