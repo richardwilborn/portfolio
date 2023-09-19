@@ -19,7 +19,7 @@ https://richardwilborn.github.io/portfolio/
 
 
 ## 🛠 Skills
-HTML, CSS, JavaScript, NodeJS, MySQL, Mongo DB...
+HTML, CSS, JavaScript, NodeJS, MySQL, Mongo DB, networking basics and troubleshooting...
 
 
 ## License
